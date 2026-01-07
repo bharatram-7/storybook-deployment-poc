@@ -34,7 +34,7 @@ export const AtButton = ({
       }`}
       onClick={!isDisabled ? onClick : undefined}
     >
-      {label}
+      {label}?
     </button>
   )
 }
